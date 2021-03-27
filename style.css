@@ -1,0 +1,19 @@
+@media all and (max-device-width: 480px)
+
+@font-face{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav
+    {
+        font-size: 1.1em;
+    }
+
+body {
+font-family: ;
+	display: flex;
+	justify-content: center;
+}
+
+
+}
