@@ -1,19 +1,67 @@
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 980px)
+    {
+        width: auto;
+    }
 
 @font-face{
     font-family: 'Raleway', sans-serif;
 }
 
-nav
-    {
+
+header
+    {   
         font-size: 1.1em;
+        color: #0065FC;
+        display :flex;
+        justify-content: space-between;
+
     }
 
+.flex-container {
+        display: flex;
+          justify-content: flex-end;
+          flex-wrap: wrap;
+          flex
+         }
+
+.hébergements { 
+            flex:1 1 100%;
+            color: #F2F2F2;
+          }
+            
+.activités {
+              flex: 1;
+            color: #F2F2F2;
+          }
+
+
+a:hover {
+    text-decoration-line: overline; color:#0065FC; 
+  }
+
 body {
-font-family: ;
-	display: flex;
-	justify-content: center;
-}
+    font-family:'Raleway';
+    color: #0065FC} }
 
+label {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+    }
+    
+input,
+label {
+        margin: .4rem 0;
+    }
+    
 
-}
+div {
+      }
+
+.item1
+flex:1 1 50%;
+
+.item2
+flex: 1 1 100%;
+
+h1 
+h2 color: #F2F2F2;
