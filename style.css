@@ -141,36 +141,30 @@ table {
 header {
     font-size: 1.1em;
     color: #0065FC;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
+    flex-wrap: wrap;    
 }
 
+nav{
+    color:#F2F2F2;
+    margin-top: 15px;
+    flex: 1 1 50%;
 
-.flex-container {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
 }
 
-.hébergements {
-    flex: 1 1 100%;
-    color: #F2F2F2;
-}
 
 header a {
     text-decoration: none;
-    padding-top: 15px;
-    margin-right: 30px;
+    padding-top: 20px;
+    margin-right: 10px;
+    color: gray  ;
 }
 
-.activités {
-    flex: 1;
-    color: #F2F2F2;
-}
-
-header a:hover { 
+nav a:hover { 
     border-top: 2px solid #0065FC;
-    
+    color: #0065FC;
 }
 
 body {
@@ -181,4 +175,6 @@ body {
 .inscription{
     color: #0065FC;
     font-weight: bold;
+    margin-right: 30px;
+
 }
